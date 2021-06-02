@@ -60,7 +60,7 @@ img {
 }
 
 .footer-text {
-    width: 85vw;
+    width: 80vw;
     margin: 0 auto;
     font-size: 16px;
     line-height: 20px;    
@@ -86,15 +86,15 @@ img {
     background-color: white;
     grid-area: art;
     margin-right: 16px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
 }
 
 .article-headline {
     font-weight: 900;
     font-size: 36px;
     line-height: 45px;
-    margin-top: 0;
     margin-bottom: 8px;
 }
 
@@ -103,7 +103,7 @@ img {
     font-weight: 600;
     font-size: 26px;
     line-height: 33px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .caption {
@@ -113,7 +113,7 @@ img {
 }
 
 .quote-wrapper {
-    border-left: 7px solid grey;
+    border-left: 7px solid #959595;
     padding-left: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -147,6 +147,8 @@ li {
 }    
 
 .yellow-box {
+    padding-left: 8px;
+    padding-right: 8px;
     background: #FBF5E0;
     border: 1.75px solid #DA8D2F;
     margin: 40px;
@@ -189,6 +191,14 @@ li {
 .blue-box {
     background: #EBEFF7;
     border: 1px solid #4269AE;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    /* padding-left: 8px;
+    padding-right: 8px;
+    background: #FBF5E0;
+    border: 1.75px solid #DA8D2F; */
+    margin: 40px;
 }
 
 
@@ -197,7 +207,7 @@ li {
     padding-left: 20px;
 }
 
-.grid-group {
+.guarantee-group {
     display: grid;
     grid-template-areas: 'left right';
 }
@@ -268,6 +278,11 @@ color: white;
     max-width: 513px;
 }
 
+.one-liner {
+    margin: 16px auto;
+    width: 100%;
+}
+
 /***************
  * ARTICLE END *
  ***************/
@@ -275,6 +290,7 @@ color: white;
 /*****************************
  * BEFORE-AFTER-PHOTOS START *
  *****************************/
+
 
  .before-after-wrapper {
     background-color: white; 
@@ -288,6 +304,7 @@ color: white;
     font-weight: 600;
     font-size: 22px;
     line-height: 28px;
+    margin-top: 8px;
 }
 
 .testimonial-name {
@@ -330,9 +347,22 @@ color: white;
         background-color: white;
         width: 100vw;
     }
+
+    .article-headline{
+        font-size: 30px;
+    }
     
     .photos {
         background-color: white; 
         width: 100vw;
+    }
+
+    .yellow-box, .blue-box {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .guarantee-group {
+        display: block;
     }
  }
