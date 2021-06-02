@@ -25,11 +25,9 @@ img {
 }
 
 
-
-
-/**********
- * HEADER *
- **********/
+/****************
+ * HEADER START *
+ ****************/
  
  .header {
      text-align: center;
@@ -47,13 +45,14 @@ img {
     width: 80%;
     margin: 0 auto;
 }
+
 /**************
- * END HEADER *
+ * HEADER END *
  **************/
 
-/**********
- * FOOTER *
- **********/
+/****************
+ * FOOTER START *
+ ****************/
 
 .footer {
     background-color: #E6E6E6;
@@ -76,9 +75,8 @@ img {
 }
 
 /**************
- * END FOOTER *
+ * FOOTER END *
  **************/
-
 
 /*******************
  * ARTICLE START *
@@ -254,8 +252,6 @@ text-decoration: none;
 color: white;
 }
 
-
-
 .cta-btn:hover {
     background-color: white;
     color: #D1151D;
@@ -272,17 +268,15 @@ color: white;
     max-width: 513px;
 }
 
+/***************
+ * ARTICLE END *
+ ***************/
 
-/***********************
- * END ARTICLE SECTION *
- ***********************/
-
-/***********************
- * BEFORE AFTER PHOTOS *
- ***********************/
+/*****************************
+ * BEFORE-AFTER-PHOTOS START *
+ *****************************/
 
  .before-after-wrapper {
- /* .photos { */
     background-color: white; 
     grid-area: img;
     padding: 8px;
@@ -319,6 +313,9 @@ color: white;
     color: #4269AE;
 }
 
+/********************
+ * BEFORE-AFTER-END *
+ ********************/
 
 /***********************************************
  * MOBILE: SCREENS THAT ARE 600PX WIDE OR LESS *
