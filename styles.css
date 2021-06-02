@@ -86,9 +86,7 @@ img {
     background-color: white;
     grid-area: art;
     margin-right: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
+    padding: 20px 10px 20px 10px;
 }
 
 .article-headline {
